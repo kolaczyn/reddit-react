@@ -1,0 +1,30 @@
+body{
+  --accent-color: #0079d3;
+  background-color: #dae0e6;
+  /* background-color: #222; */
+}
+
+*{
+  padding: 0; 
+  margin: 0;
+  box-sizing: border-box;
+}
+
+button{
+  font-weight: bold;
+  border-radius: .3rem;
+  border: 0px;
+  padding: .5rem 1.8rem;
+}
+
+.blue-btn{
+  color: white;
+  background-color: var(--accent-color);
+  border: 1px var(--accent-color) solid;
+}
+
+.white-btn{
+  border: 1px var(--accent-color) solid;
+  background-color: white;
+  color: var(--accent-color);
+}

@@ -1,0 +1,18 @@
+nav .logo{
+  display: flex;
+  align-items: center;
+  /* display: inline; */
+  width: 120px;
+  /* background-color: red; */
+}
+
+
+nav .logo img{
+  margin: 0.25rem;
+}
+
+nav{
+  background-color: white;
+  display: flex;
+  padding: .5rem;
+}
