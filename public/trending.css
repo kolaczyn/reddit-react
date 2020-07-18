@@ -1,0 +1,48 @@
+.trending-today {
+  /* background-color: steelblue; */
+  margin: 0.8rem auto;
+  max-width: 1050px;
+}
+
+.trending-posts {
+  display: flex;
+  justify-content: space-around;
+}
+
+.trending-post {
+  position: relative;
+  color: white;
+}
+
+.trending-post img,
+.trending-post-overlay{
+  border-radius: .5rem;
+}
+
+.trending-post-overlay {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, .9));
+  position: absolute;
+  top: 0%;
+  /* width and height is hardcoded for now */
+  width: 200px;
+  height: 113px;
+}
+
+.trending-post-title{
+  font-weight: bold;
+}
+
+.trending-post-description{
+  font-size: .75rem;
+}
+
+.trending-post-footer{
+  font-size: .6rem;
+}
+
+.trending-post-text{
+  position: absolute;
+  bottom: .5rem;
+  left: .5rem;
+  /* background-color: red; */
+}

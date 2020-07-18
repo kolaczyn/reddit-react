@@ -1,0 +1,54 @@
+/* TODO make button grow and make them the same size
+  also add a magnifying glass to the search bar
+*/
+nav .logo {
+  display: flex;
+  align-items: center;
+  /* display: inline; */
+  /* background-color: red; */
+  /* margin: 0; */
+  margin: 0 .5rem;
+}
+
+nav .logo img {
+  margin: 0.25rem;
+} 
+
+nav {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0.5rem; */
+  /* height: 3rem; */
+}
+
+.search-bar{
+  padding: .4rem 2rem;
+  font-size: small;
+  background-color: #f6f7f8;
+  border: 1px #edeff1 solid;
+  flex-grow: 1;
+  min-width: 100px;
+  max-width: 800px;
+}
+
+nav button{
+  margin: .2rem;
+  /* flex-grow: 1; */
+}
+
+.search-bar:hover,
+.search-bar:focus{
+  border: 1px var(--accent-color) solid;
+  background-color: #fff;
+}
+
+@media (max-width: 800px) {
+  .black-reddit {
+    display: none;
+  }
+  nav button{
+    display: none;
+  }
+}
