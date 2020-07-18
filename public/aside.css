@@ -4,6 +4,10 @@ aside {
   height: 1000px;
 }
 
+aside .content{
+  margin-bottom: 2rem;
+}
+
 .trending-communities ul{
   padding-top: .5rem;
 }
@@ -12,4 +16,34 @@ aside {
   aside{
     display: none;
   }
+}
+
+.trending-community-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trending-community-container *{
+  margin: .2rem;
+}
+
+.top-communities-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.view-all-btn{
+  width: 100%;
+}
+
+.top-community{
+  display: flex;
+  align-items: center;
+  font-size: .9rem;
+  font-weight: bold;
+}
+
+.top-community *{
+  margin: .4rem;
 }

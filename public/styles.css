@@ -1,10 +1,14 @@
 body {
-  --accent-color: #0079d3;
+  --dark-blue:   #0060a8;
+  --medium-blue: #0079d3;
+  --light-blue:  #7fbce9;
   background-color: #dae0e6;
   font-size: small;
   font-family: sans-serif;
   /* background-color: #222; */
 }
+/* TODO there probably is a way to calculate a color of a button instead of hard coding everything
+or maybe there is another way. Either way, I have to fix this 'cause it look ridiculus. */
 
 * {
   padding: 0;
@@ -16,38 +20,13 @@ ul{
   list-style-type: none;
 }
 
-button {
-  white-space: nowrap;
-  font-size: 0.7rem;
-  font-weight: bold;
-  border: 0px;
-  padding: 0.5rem 1.5rem;
-}
-
-button,
-.search-bar{
-  border-radius: 0.25rem;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
-.blue-btn {
-  color: white;
-  background-color: var(--accent-color);
-  border: 1px var(--accent-color) solid;
-}
-
-.white-btn {
-  border: 1px var(--accent-color) solid;
-  background-color: white;
-  color: var(--accent-color);
-}
 
 .main-section-and-sidebar{
   display: flex;
-  justify-content: space-around;
+  flex-direction: row;
+  /* background-color: red; */
+  /* display: inline; */
+  justify-content: space-evenly;
   max-width: 1150px;
   margin:  0 auto;
   /* background-color: violet; */
@@ -63,4 +42,14 @@ button:hover {
 
 .subreddit-icon{
   border-radius: 50%;
+  width: 32px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
 }

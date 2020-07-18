@@ -6,7 +6,7 @@
 
 .trending-posts {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .trending-post {
