@@ -6,12 +6,19 @@
 
 .trending-posts {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .trending-post {
   position: relative;
   color: white;
+  margin: .4rem;
+}
+
+.trending-post:first-child,
+.trending-post:last-child
+{
+  margin-left: 0;
 }
 
 .trending-post img,
@@ -24,8 +31,8 @@
   position: absolute;
   top: 0%;
   /* width and height is hardcoded for now */
-  width: 200px;
-  height: 113px;
+  width: 256px;
+  height: 188px;
 }
 
 .trending-post-title{
@@ -37,7 +44,10 @@
 }
 
 .trending-post-footer{
+  margin-top: .6rem;
   font-size: .6rem;
+  display:flex;
+  align-items: center;
 }
 
 .trending-post-text{
@@ -45,4 +55,28 @@
   bottom: .5rem;
   left: .5rem;
   /* background-color: red; */
+}
+
+.trending-post-subreddt{
+  width: 1rem;
+  margin-right: .4rem;
+}
+
+
+@media (max-width: 1090px){
+  #trending-post4{
+    display: none;
+  }
+}
+
+@media (max-width: 850px){
+  #trending-post3{
+    display: none;
+  }
+}
+
+@media (max-width: 520px){
+  #trending-post2{
+    display: none;
+  }
 }

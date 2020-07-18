@@ -40,3 +40,8 @@ button:hover {
   background-color: white;
   color: var(--accent-color);
 }
+
+.main-section-and-sidebar{
+  margin: 0 auto;
+  display: flex;
+}
