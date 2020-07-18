@@ -1,6 +1,4 @@
 import React from "react";
-import Button from "./Button";
-import Search from "./Search";
 
 export default function Navbar() {
   return (
@@ -19,10 +17,10 @@ export default function Navbar() {
           alt="black reddit"
         />
       </a>
-      <Search />
+      <input placeholder="Search" className="search-bar" type="text"/>
       <div className="navbar-buttons">
-        <Button label="LOG IN" color="white" />
-        <Button label="SIGN UP" color="blue" />
+        <button className="white-btn">LOG IN</button>
+        <button className="blue-btn">SIGN UP</button>
       </div>
     </nav>
   );

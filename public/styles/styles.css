@@ -1,0 +1,50 @@
+/* TODO there probably is a way to calculate a color of a button instead of pretty much hard coding everything.
+Either way, I have to fix this 'cause it look ridiculus. */
+
+body {
+  --dark-blue: #0060a8;
+  --medium-blue: #0079d3;
+  --light-blue: #7fbce9;
+  background-color: #dae0e6;
+  font-size: small;
+  font-family: sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.main-section-and-sidebar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.content {
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.25rem;
+  border: 1px #ccc solid;
+  background-color: white;
+}
+
+.subreddit-icon {
+  border-radius: 50%;
+  width: 32px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

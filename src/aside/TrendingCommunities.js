@@ -1,5 +1,5 @@
 import React from "react";
-import trendingCommunitiesData from "./data/trendingCommunitiesData";
+import trendingCommunitiesData from "../data/trendingCommunitiesData";
 import TrendingCommunity from "./TrendingCommunity";
 
 export default function TrendingCommunities() {

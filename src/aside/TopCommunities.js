@@ -1,5 +1,5 @@
 import React from "react";
-import topCommunitiesData from "./data/topCommunitiesData";
+import topCommunitiesData from "../data/topCommunitiesData";
 import TopCommunity from "./TopCommunity";
 
 export default function TopCommunities() {

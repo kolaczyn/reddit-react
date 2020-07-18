@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "./Navbar";
-import TrendingToday from "./TrendingToday";
+import Navbar from "./headers/Navbar";
+import TrendingToday from "./headers/TrendingToday";
 import Main from "./Main";
-import Aside from "./Aside";
+import Aside from "./aside/Aside";
 
 function App() {
   return (

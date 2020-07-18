@@ -1,6 +1,6 @@
 import React from "react";
 import TrendingPost from "./TrendingPost";
-import trendingPostsData from "./data/trendingPostsData"
+import trendingPostsData from "../data/trendingPostsData"
 
 export default function TrendingToday() {
   // console.log(trendingPostsData[0])
