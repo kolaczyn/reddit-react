@@ -1,5 +1,5 @@
-
-button {
+button,
+.btn {
   white-space: nowrap;
   font-size: 0.7rem;
   font-weight: bold;
@@ -12,20 +12,18 @@ button:hover {
   cursor: pointer;
 }
 
-
-
 .blue-btn {
   color: white;
   background-color: var(--medium-blue);
   border: 1px var(--medium-blue) solid;
 }
 
-.blue-btn:hover{
+.blue-btn:hover {
   background-color: var(--light-blue);
   border: 1px var(--light-blue) solid;
 }
 
-.blue-btn:active{
+.blue-btn:active {
   background-color: var(--dark-blue);
   border: 1px var(--dark-blue) solid;
 }
@@ -36,26 +34,40 @@ button:hover {
   color: var(--medium-blue);
 }
 
-.white-btn:hover{
+.white-btn:hover {
   color: var(--light-blue);
   border: 1px var(--light-blue) solid;
 }
 
-.white-btn:active{
+.white-btn:active {
   color: var(--dark-blue);
   border: 1px var(--dark-blue) solid;
 }
 
 .gray-btn {
-  padding: .5rem;
+  padding: 0.5rem;
   border: 1px #f6f7f8 solid;
   background-color: #f6f7f8;
   color: var(--medium-blue);
 }
 
 .gray-btn:hover,
-.gray-btn:active{
+.gray-btn:active {
   background-color: #edeff1;
   border: 1px edeff1 solid;
 }
 
+.sort-btn {
+  height: 2rem;
+  padding-left:  0.8rem;
+  padding-right: 0.8rem;
+  /* background-color: violet; */
+  font-size: 0.8rem;
+  background-color: transparent;
+  border-radius: 0.8rem;
+  color: #878a8c;
+}
+
+.sort-btn img{
+  margin-right: .5rem;
+}

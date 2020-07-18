@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./headers/Navbar";
 import TrendingToday from "./headers/TrendingToday";
-import Main from "./Main";
+import Main from "./main/Main";
 import Aside from "./aside/Aside";
 
 function App() {

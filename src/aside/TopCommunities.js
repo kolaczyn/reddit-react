@@ -8,7 +8,7 @@ export default function TopCommunities() {
       <h3>Top Programming Communities</h3>
       <ul>
         {topCommunitiesData.map((community, i) => {
-          let p = { place: i };
+          // let p = { place: i };
           return (
             <div>
               <TopCommunity {...community} />

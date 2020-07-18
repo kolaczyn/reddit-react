@@ -45,6 +45,10 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+.sort-bar a:hover{
+  text-decoration: none;
+}
+
+.trending-communities a:hover {
   text-decoration: underline;
 }

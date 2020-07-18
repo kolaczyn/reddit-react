@@ -2,3 +2,19 @@ main{
   width: 550px;
   height: 1000px
 }
+
+.sort-bar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sort-bar a{
+  display: flex;
+  align-items: center;
+}
+
+.active-sort-true{
+  color: var(--medium-blue);
+  background-color: #f6f7f8;
+}
