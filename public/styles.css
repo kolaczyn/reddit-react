@@ -12,6 +12,10 @@ body {
   box-sizing: border-box;
 }
 
+ul{
+  list-style-type: none;
+}
+
 button {
   white-space: nowrap;
   font-size: 0.7rem;
@@ -42,6 +46,21 @@ button:hover {
 }
 
 .main-section-and-sidebar{
-  margin: 0 auto;
   display: flex;
+  justify-content: space-around;
+  max-width: 1150px;
+  margin:  0 auto;
+  /* background-color: violet; */
+}
+
+.content{
+  /* color: #878a8c; */
+  padding: .5rem .8rem;
+  border-radius: .25rem;
+  border: 1px #ccc solid;
+  background-color: white;
+}
+
+.subreddit-icon{
+  border-radius: 50%;
 }

@@ -1,3 +1,15 @@
 aside {
-  background-color: coral;
+  /* background-color: coral; */
+  width: 350px;
+  height: 1000px;
+}
+
+.trending-communities ul{
+  padding-top: .5rem;
+}
+
+@media (max-width: 1000px){
+  aside{
+    display: none;
+  }
 }

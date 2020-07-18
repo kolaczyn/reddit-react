@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import TrendingToday from "./TrendingToday";
-import MainSection from "./MainSection";
+import Main from "./Main";
 import Aside from "./Aside";
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <TrendingToday />
       <div className="main-section-and-sidebar">
-        <MainSection />
+        <Main />
         <Aside />
       </div>
     </>

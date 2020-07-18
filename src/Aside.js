@@ -1,10 +1,10 @@
 import React from 'react'
+import TrendingCommunities from './TrendingCommunities'
 
-export default function Sidebar() {
+export default function Aside() {
   return (
-    // <>fdsdsfs</>
     <aside className="sidebar">
-      it's the sidebar
+      <TrendingCommunities/>
     </aside>
   )
 }
