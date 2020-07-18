@@ -15,10 +15,13 @@
   margin: .4rem;
 }
 
-.trending-post:first-child,
-.trending-post:last-child
-{
+.trending-post:first-child{
   margin-left: 0;
+}
+
+
+.trending-post:last-child{
+  margin-right: 0;
 }
 
 .trending-post img,

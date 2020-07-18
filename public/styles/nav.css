@@ -27,22 +27,37 @@ nav {
   min-width: 100px;
   max-width: 800px;
   border-radius: 0.25rem;
+  margin: .15rem .55rem;
 }
 
+/* add the magnifiying glass later */
+/* .search-container{
+  position: relative;
+  background-color: pink;
+} */
+
+/* .search-glass{
+  position: absolute;
+} */
+
 nav button{
-  margin: .2rem;
+  margin: .6rem .15rem;
 }
 
 .search-bar:hover,
 .search-bar:focus{
-  border: 1px var(--accent-color) solid;
+  border: 1px var(--medium-blue) solid;
   background-color: #fff;
 }
 
-@media (max-width: 800px) {
+
+@media (max-width: 1000px) {
   .black-reddit {
     display: none;
   }
+}
+
+@media (max-width: 850px) {
   nav button{
     display: none;
   }

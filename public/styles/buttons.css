@@ -66,8 +66,16 @@ button:hover {
   background-color: transparent;
   border-radius: 0.8rem;
   color: #878a8c;
+  font-weight: normal;
+  font-size: 1rem;
+  margin-right: .8rem;
 }
 
 .sort-btn img{
   margin-right: .5rem;
+}
+
+.sort-btn:hover.active-sort-false{
+  background-color: #f6f7f8;
+  color: black;
 }

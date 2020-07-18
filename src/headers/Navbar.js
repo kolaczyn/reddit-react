@@ -17,7 +17,15 @@ export default function Navbar() {
           alt="black reddit"
         />
       </a>
-      <input placeholder="Search" className="search-bar" type="text"/>
+      {/* <div className="search-container"> */}
+        <input placeholder="Search" className="search-bar" type="text" />
+        {/* <img
+          className="search-glass"
+          src="assets/glass.png"
+          width="16px"
+          alt=""
+        /> */}
+      {/* </div> */}
       <div className="navbar-buttons">
         <button className="white-btn">LOG IN</button>
         <button className="blue-btn">SIGN UP</button>
