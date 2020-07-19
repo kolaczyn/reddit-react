@@ -5,6 +5,7 @@ body {
   --dark-blue: #0060a8;
   --medium-blue: #0079d3;
   --light-blue: #7fbce9;
+  --gray: #878a8c;
   background-color: #dae0e6;
   font-size: small;
   font-family: sans-serif;
@@ -46,7 +47,7 @@ a {
   text-decoration: none;
 }
 
-.sort-bar a:hover{
+.sort-bar a:hover {
   text-decoration: none;
 }
 
@@ -54,9 +55,6 @@ a {
   text-decoration: underline;
 }
 
-aside{
+.sidebar {
   margin-top: 2rem;
-  /* margin-left: 2rem; */
-  /* padding: 100px */
-  /* color: blue; */
 }

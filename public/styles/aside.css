@@ -1,48 +1,48 @@
-aside {
+.sidebar {
   width: 350px;
   height: 1000px;
 }
 
-aside .content{
+.sidebar .content {
   margin-bottom: 2rem;
 }
 
-.trending-communities ul{
-  padding-top: .5rem;
+.trending-communities ul {
+  padding-top: 0.5rem;
 }
 
-@media (max-width: 1200px){
-  aside{
+@media (max-width: 1200px) {
+  .sidebar {
     display: none;
   }
 }
 
-.trending-community-container{
+.trending-community-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.trending-community-container *{
-  margin: .2rem;
+.trending-community-container * {
+  margin: 0.2rem;
 }
 
-.top-communities-footer{
+.top-communities-footer {
   display: flex;
   justify-content: space-between;
 }
 
-.view-all-btn{
+.view-all-btn {
   width: 100%;
 }
 
-.top-community{
+.top-community {
   display: flex;
   align-items: center;
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: bold;
 }
 
-.top-community *{
-  margin: .4rem;
+.top-community * {
+  margin: 0.4rem;
 }

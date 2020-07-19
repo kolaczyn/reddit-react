@@ -1,13 +1,14 @@
-import React from "react";
+import React from 'react'
 
-export default function SortButton({label, hasIcon, active}) {
+export default function SortButton({ label, hasIcon, active }) {
   return (
     <li>
-      <a href="/" className={`btn sort-btn active-sort-${active}`}>
-        {hasIcon && <img src={`assets/${active}-${label}.png`} width="16px" alt="" />
-        }
+      <a href='/' className={`btn sort-btn active-sort-${active}`}>
+        {hasIcon && (
+          <img src={`assets/${active}-${label}.png`} height='16px' alt='' />
+        )}
         <p>{label}</p>
       </a>
     </li>
-  );
+  )
 }

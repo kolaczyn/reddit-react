@@ -4,9 +4,9 @@ import TopCommunities from './TopCommunities'
 
 export default function Aside() {
   return (
-    <aside className="sidebar">
-      <TopCommunities/>
-      <TrendingCommunities/>
+    <aside className='sidebar'>
+      <TopCommunities />
+      <TrendingCommunities />
     </aside>
   )
 }

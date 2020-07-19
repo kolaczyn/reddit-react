@@ -1,13 +1,13 @@
 import React from 'react'
-import Post from '../posts/Post'
+import Post from './Post'
+import postsData from '../data/postsData'
 
 export default function PostsTimeline() {
   return (
     <div>
-      <Post/>
-      <Post/>
-      <Post/>
-      <Post/>
+      {postsData.map(post => {
+        return <Post {...post} />
+      })}
     </div>
   )
 }

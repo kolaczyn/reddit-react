@@ -1,10 +1,10 @@
-import React from "react";
-import topCommunitiesData from "../data/topCommunitiesData";
-import TopCommunity from "./TopCommunity";
+import React from 'react'
+import topCommunitiesData from '../data/topCommunitiesData'
+import TopCommunity from './TopCommunity'
 
 export default function TopCommunities() {
   return (
-    <div className="content">
+    <div className='content'>
       <h3>Top Programming Communities</h3>
       <ul>
         {topCommunitiesData.map((community, i) => {
@@ -13,25 +13,25 @@ export default function TopCommunities() {
             <div>
               <TopCommunity {...community} />
             </div>
-          );
+          )
         })}
       </ul>
 
-      <button className="blue-btn view-all-btn">VIEW ALL</button>
-      <ul className="top-communities-footer">
+      <button className='blue-btn view-all-btn'>VIEW ALL</button>
+      <ul className='top-communities-footer'>
         <li>
-          <button className="gray-btn">Near You</button>
+          <button className='gray-btn'>Near You</button>
         </li>
         <li>
-          <button className="gray-btn">Sports</button>
+          <button className='gray-btn'>Sports</button>
         </li>
         <li>
-          <button className="gray-btn">News</button>
+          <button className='gray-btn'>News</button>
         </li>
         <li>
-          <button className="gray-btn">Aww</button>
+          <button className='gray-btn'>Aww</button>
         </li>
       </ul>
     </div>
-  );
+  )
 }

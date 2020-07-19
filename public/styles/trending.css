@@ -12,25 +12,28 @@
 .trending-post {
   position: relative;
   color: white;
-  margin: .4rem;
+  margin: 0.4rem;
 }
 
-.trending-post:first-child{
+.trending-post:first-child {
   margin-left: 0;
 }
 
-
-.trending-post:last-child{
+.trending-post:last-child {
   margin-right: 0;
 }
 
 .trending-post img,
-.trending-post-overlay{
-  border-radius: .5rem;
+.trending-post-overlay {
+  border-radius: 0.5rem;
 }
 
 .trending-post-overlay {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, .9));
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.9)
+  );
   position: absolute;
   top: 0%;
   /* width and height is hardcoded for now */
@@ -38,47 +41,46 @@
   height: 188px;
 }
 
-.trending-post-title{
+.trending-post-title {
   font-weight: bold;
 }
 
-.trending-post-description{
-  font-size: .75rem;
+.trending-post-description {
+  font-size: 0.75rem;
 }
 
-.trending-post-footer{
-  margin-top: .6rem;
-  font-size: .6rem;
-  display:flex;
+.trending-post-footer {
+  margin-top: 0.6rem;
+  font-size: 0.6rem;
+  display: flex;
   align-items: center;
 }
 
-.trending-post-text{
+.trending-post-text {
   position: absolute;
-  bottom: .5rem;
-  left: .5rem;
+  bottom: 0.5rem;
+  left: 0.5rem;
 }
 
-.trending-post-subreddt{
+.trending-post-subreddt {
   width: 1rem;
-  margin-right: .4rem;
+  margin-right: 0.4rem;
 }
 
-
-@media (max-width: 1090px){
-  #trending-post4{
+@media (max-width: 1090px) {
+  #trending-post4 {
     display: none;
   }
 }
 
-@media (max-width: 850px){
-  #trending-post3{
+@media (max-width: 850px) {
+  #trending-post3 {
     display: none;
   }
 }
 
-@media (max-width: 520px){
-  #trending-post2{
+@media (max-width: 520px) {
+  #trending-post2 {
     display: none;
   }
 }

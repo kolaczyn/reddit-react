@@ -54,12 +54,12 @@ button:hover {
 .gray-btn:hover,
 .gray-btn:active {
   background-color: #edeff1;
-  border: 1px edeff1 solid;
+  border: 1px #edeff1 solid;
 }
 
 .sort-btn {
   height: 2rem;
-  padding-left:  0.8rem;
+  padding-left: 0.8rem;
   padding-right: 0.8rem;
   /* background-color: violet; */
   font-size: 0.8rem;
@@ -68,14 +68,23 @@ button:hover {
   color: #878a8c;
   font-weight: normal;
   font-size: 1rem;
-  margin-right: .8rem;
+  margin-right: 0.8rem;
 }
 
-.sort-btn img{
-  margin-right: .5rem;
+.sort-btn img {
+  margin-right: 0.5rem;
 }
 
-.sort-btn:hover.active-sort-false{
+.sort-btn:hover.active-sort-false {
   background-color: #f6f7f8;
   color: black;
+}
+
+.post-btn {
+  color: #878a8c;
+  display: inline;
+}
+
+.post-btn:hover {
+  background-color: #e7e7e7;
 }

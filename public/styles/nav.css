@@ -4,12 +4,12 @@
 nav .logo {
   display: flex;
   align-items: center;
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
 }
 
 nav .logo img {
   margin: 0.25rem;
-} 
+}
 
 nav {
   background-color: white;
@@ -18,8 +18,8 @@ nav {
   justify-content: space-between;
 }
 
-.search-bar{
-  padding: .4rem 2rem;
+.search-bar {
+  padding: 0.4rem 2rem;
   font-size: small;
   background-color: #f6f7f8;
   border: 1px #edeff1 solid;
@@ -27,7 +27,7 @@ nav {
   min-width: 100px;
   max-width: 800px;
   border-radius: 0.25rem;
-  margin: .15rem .55rem;
+  margin: 0.15rem 0.55rem;
 }
 
 /* add the magnifiying glass later */
@@ -40,16 +40,15 @@ nav {
   position: absolute;
 } */
 
-nav button{
-  margin: .6rem .15rem;
+nav button {
+  margin: 0.6rem 0.15rem;
 }
 
 .search-bar:hover,
-.search-bar:focus{
+.search-bar:focus {
   border: 1px var(--medium-blue) solid;
   background-color: #fff;
 }
-
 
 @media (max-width: 1000px) {
   .black-reddit {
@@ -58,7 +57,7 @@ nav button{
 }
 
 @media (max-width: 850px) {
-  nav button{
+  nav button {
     display: none;
   }
 }
