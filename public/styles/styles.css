@@ -27,6 +27,8 @@ ul {
   justify-content: space-evenly;
   max-width: 1350px;
   margin: 0 auto;
+  padding-right: 24px;
+  padding-left: 24px;
 }
 
 .content {
@@ -40,6 +42,7 @@ ul {
 .subreddit-icon {
   border-radius: 50%;
   width: 32px;
+  vertical-align: middle;
 }
 
 a {
@@ -57,4 +60,8 @@ a {
 
 .sidebar {
   margin-top: 2rem;
+}
+
+.flex-filler {
+  margin-left: auto;
 }

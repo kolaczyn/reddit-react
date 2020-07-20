@@ -43,16 +43,17 @@
 
 .post {
   padding: 0;
-}
-
-.post {
   display: flex;
 }
 
-.post aside {
+.post .post aside {
   width: 80px;
   font-size: 0.7rem;
   font-weight: bold;
+}
+
+main>* {
+  margin: .4rem;
 }
 
 .upvotes-container {
@@ -62,33 +63,8 @@
   padding-top: 0.8rem;
 }
 
-.post-header-left {
-  font-size: 0.75rem;
-}
 
-.post-header-left a {
+
+.bold {
   font-weight: bold;
-  display: flex;
-  text-align: center;
-}
-
-.post-header * {
-  background-color: pink;
-}
-
-.posting-information {
-  color: gray;
-}
-
-.post-header {
-  display: flex;
-}
-
-/* a.post-btn{
-  display: inline;
-} */
-
-.post-btn {
-  display: flex;
-  align-items: center;
 }

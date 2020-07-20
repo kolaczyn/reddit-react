@@ -1,5 +1,6 @@
 import React from 'react'
 import PostButton from './PostButton'
+import PostHeader from './PostHeader'
 
 export default function Post(props) {
   let { title, content, upvotes, subreddit, user, timeAgo, comments } = props
@@ -13,44 +14,31 @@ export default function Post(props) {
         </div>
       </aside>
       <main>
-        <header className='post-header'>
-          <div className='post-header-left'>
-            <a href='#'>
-              <img
-                src={`assets/${subreddit}.png`}
-                className='subreddit-icon'
-                alt=''
-              />
-              <p>r/{subreddit}</p>
-            </a>
-            <p className='posting-information'>
-              Posted by u/{user} {timeAgo} ago
-            </p>
-          </div>
-        </header>
-        <h2>{title}</h2>
+        <PostHeader subreddit={subreddit} user={user} timeAgo={timeAgo} />
+        <h4>{title}</h4>
         {content && <p>{content}</p>}
         <footer className='post-footer'>
-          <ul>
-            <PostButton
-              {...{
-                label: `${comments} Comments`,
-                iconLocation: 'assets/comment.png',
-              }}
-            />
-            <PostButton
-              {...{
-                label: `${comments} Share`,
-                iconLocation: 'assets/share.png',
-              }}
-            />
-            <PostButton
-              {...{
-                label: `${comments} Save`,
-                iconLocation: 'assets/save.png',
-              }}
-            />
-          </ul>
+          <PostButton
+            {...{
+              label: `${comments} Comments`,
+              iconLocation: 'assets/comment.png',
+            }}
+          />
+          <PostButton
+            {...{
+              label: `Share`,
+              iconLocation: 'assets/share.png',
+            }}
+          />
+          <PostButton
+            {...{
+              label: `Save`,
+              iconLocation: 'assets/save.png',
+            }}
+          />
+          {/* it's a post button, but its a little different from the others, so I think it's easier to do it this way */}
+          <a href='/' className={`btn post-btn elipsis`}> ...
+      </a>
         </footer>
       </main>
     </div>

@@ -2,11 +2,9 @@ import React from 'react'
 
 export default function PostButton({ label, iconLocation }) {
   return (
-    <li>
-      <a href='/' className='btn post-btn'>
-        {<img src={iconLocation} width='16px' alt='' />}
-        <p>{label}</p>
-      </a>
-    </li>
+    <a href='/' className={`btn post-btn ${label}`}>
+      <img src={iconLocation} height='16px' alt='' />
+      {label}
+    </a>
   )
 }
