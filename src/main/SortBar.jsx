@@ -4,7 +4,6 @@ import SortButton from './SortButton'
 export default function SortBar() {
   return (
     <div>
-      <h3 id='popular-posts-header'>Popular posts</h3>
       <ul className='sort-bar content'>
         <SortButton label={'hot'} icon="hot.png" active={true} />
         <SortButton label={'poland'} active={true} />

@@ -4,7 +4,7 @@ import TopCommunity from './TopCommunity'
 
 export default function TopCommunities() {
   return (
-    <div className='content'>
+    <div className='content' id='top-communities'>
       <h3>Top Programming Communities</h3>
       <ul>
         {topCommunitiesData.map((community, i) => {

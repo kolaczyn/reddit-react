@@ -5,7 +5,7 @@ export default function TopCommunity({ place, subreddit, rising }) {
     <li>
       <a href='/' className='top-community'>
         <img
-          className='subreddit-icon'
+          className='subreddit-icon medium'
           src={`assets/${subreddit}.png`}
           alt={subreddit}
         />

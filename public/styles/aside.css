@@ -17,6 +17,10 @@
   }
 }
 
+.top-communities>* {
+  margin: .8rem;
+}
+
 .trending-community-container {
   display: flex;
   align-items: center;

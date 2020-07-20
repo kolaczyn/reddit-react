@@ -25,7 +25,9 @@
 }
 
 #popular-posts-header {
+  font-size: 1rem;
   margin-bottom: 1rem;
+  margin-top: 0rem;
 }
 
 .post {
@@ -63,7 +65,24 @@ main>* {
   padding-top: 0.8rem;
 }
 
+.post-header {
+  color: black;
+  display: flex;
+  align-items: center;
+  font-size: .8rem;
+}
 
+.post-header a {
+  color: black;
+}
+
+.post-header a.gray {
+  color: #878a8c;
+}
+
+.post-header>* {
+  margin-right: .4rem;
+}
 
 .bold {
   font-weight: bold;
