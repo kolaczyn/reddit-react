@@ -4,6 +4,13 @@ import PostHeader from './PostHeader'
 
 export default function Post(props) {
   let { title, content, upvotes, subreddit, user, timeAgo, comments } = props
+  let renderedContent = <></>
+  if (content) {
+    if (content.substring(0, 4) == 'http')
+      renderedContent = <img src={content} className='post-image' />
+    else
+      renderedContent = <p>{content}</p>;
+  }
   return (
     <div className='content post'>
       <aside>
@@ -16,7 +23,7 @@ export default function Post(props) {
       <main>
         <PostHeader subreddit={subreddit} user={user} timeAgo={timeAgo} />
         <h4>{title}</h4>
-        {content && <p>{content}</p>}
+        {renderedContent}
         <footer className='post-footer'>
           <PostButton
             {...{
