@@ -74,8 +74,10 @@ a {
   color: #878a8c;
 }
 
+/* yeah, I prolly shouldn't be using important, but whatever c: */
+
 .flex-filler {
-  margin-left: auto;
+  margin-left: auto !important;
 }
 
 .compact {

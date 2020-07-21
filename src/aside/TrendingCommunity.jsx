@@ -13,6 +13,7 @@ export default function TrendingCommunity({ id, subreddit, members }) {
         <a href='/'>r/{subreddit}</a>
         <p>{members} members</p>
       </div>
+      <div className="flex-filler"></div>
       <button className='blue-btn'>JOIN</button>
     </div>
   )

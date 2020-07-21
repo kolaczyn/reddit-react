@@ -1,6 +1,6 @@
 import React from 'react'
-import SortBar from './SortBar'
-import PostsTimeline from './PostsTimeline'
+import SortBar from './sort-bar/SortBar'
+import PostsTimeline from './post/PostsTimeline'
 
 export default function Main() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
-import TrendingCommunities from './TrendingCommunities'
-import TopCommunities from './TopCommunities'
+import TrendingCommunities from './aside/TrendingCommunities'
+import TopCommunities from './aside/TopCommunities'
 
 export default function Aside() {
   return (

@@ -11,11 +11,11 @@
   padding-top: 0.5rem;
 }
 
-/* @media (max-width: 1200px) {
+@media (max-width: 1200px) {
   .sidebar {
     display: none;
   }
-} */
+}
 
 #top-communities>* {
   margin-bottom: 1rem;
@@ -24,7 +24,7 @@
 .trending-community-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .trending-community-container * {
