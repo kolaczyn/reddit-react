@@ -81,3 +81,7 @@ a {
 .compact {
   padding: .2rem !important;
 }
+
+a {
+  color: black;
+}

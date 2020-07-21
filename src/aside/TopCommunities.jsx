@@ -6,15 +6,14 @@ export default function TopCommunities() {
   return (
     <div className='content' id='top-communities'>
       <h3>Top Programming Communities</h3>
-      <ul>
+      <ul id="top-communities-list">
         {topCommunitiesData.map((community, i) => {
-          // let p = { place: i };
-          return (
-            <div>
-              <TopCommunity {...community} />
-            </div>
-          )
+          // I have to do it this way, 'cause it seems like JSX doesn't like it when I do it the other way
+          let place = { place: i + 1 };
+          let props = { ...community, ...place }
+          return (<TopCommunity {...props} />)
         })}
+
       </ul>
 
       <button className='blue-btn view-all-btn'>VIEW ALL</button>

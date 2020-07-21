@@ -1,5 +1,4 @@
-let trendingCommunitiesData = [
-  {
+let trendingCommunitiesData = [{
     id: 1,
     subreddit: 'javascript',
     rising: true,
@@ -7,7 +6,7 @@ let trendingCommunitiesData = [
   {
     id: 2,
     subreddit: 'python',
-    rising: true,
+    rising: false,
   },
   {
     id: 3,
