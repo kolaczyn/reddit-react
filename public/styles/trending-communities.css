@@ -1,0 +1,24 @@
+.trending-communities ul {
+    padding-top: 0.5rem;
+}
+
+.trending-communities a:hover {
+    text-decoration: underline;
+}
+
+
+.trending-community-container {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+
+.trending-community-container {
+    font-size: .85rem;
+    font-weight: normal;
+}
+
+.trending-community-container * {
+    margin: 0.2rem;
+}

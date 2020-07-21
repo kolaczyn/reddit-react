@@ -21,6 +21,13 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+
 .main-section-and-sidebar {
   display: flex;
   flex-direction: row;
@@ -39,6 +46,8 @@ ul {
   background-color: white;
 }
 
+
+
 .subreddit-icon {
   border-radius: 50%;
   vertical-align: middle;
@@ -53,18 +62,8 @@ ul {
   width: 20px;
 }
 
-a {
-  /* color: black; */
-  text-decoration: none;
-}
 
-.sort-bar a:hover {
-  text-decoration: none;
-}
 
-.trending-communities a:hover {
-  text-decoration: underline;
-}
 
 .sidebar {
   margin-top: 2rem;
@@ -72,6 +71,11 @@ a {
 
 .gray {
   color: #878a8c;
+}
+
+
+.bold {
+  font-weight: bold;
 }
 
 /* yeah, I prolly shouldn't be using important, but whatever c: */
@@ -82,8 +86,4 @@ a {
 
 .compact {
   padding: .2rem !important;
-}
-
-a {
-  color: black;
 }

@@ -1,0 +1,53 @@
+.post {
+    cursor: pointer;
+}
+
+.post:hover {
+    border-color: black;
+}
+
+.post aside {
+    background-color: #f7f9fa;
+    margin: 0;
+}
+
+.post {
+    padding: 0;
+    display: flex;
+}
+
+.post .post aside {
+    width: 80px;
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+main>* {
+    margin: .4rem;
+}
+
+.upvotes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.8rem;
+}
+
+.post-header {
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: .8rem;
+}
+
+.post-header a {
+    color: black;
+}
+
+.post-header a.gray {
+    color: #878a8c;
+}
+
+.post-header>* {
+    margin-right: .4rem;
+}

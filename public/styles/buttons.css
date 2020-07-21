@@ -109,6 +109,11 @@ button:hover {
   vertical-align: middle;
 }
 
+.view-all-btn {
+  width: 100%;
+}
+
+
 /* 
 @media(max-width: 800px) {
   .post-btn.elipsis {
